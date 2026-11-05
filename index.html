@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yusi Wang Crypto Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* Layout: a single reading column; work samples ranked 01–07 by relevance to ecosystem funding roles */
+  --ink: #16202e;
+  --muted: #5a6577;
+  --paper: #f6f7f9;
+  --card: #ffffff;
+  --line: #dde2ea;
+  --accent: #1d4fd8;
+  --display: "Newsreader", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #e7ebf2; --muted: #9aa5b6; --paper: #0f141c; --card: #171e29; --line: #2a3442; --accent: #7aa2ff;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #e7ebf2; --muted: #9aa5b6; --paper: #0f141c; --card: #171e29; --line: #2a3442; --accent: #7aa2ff;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 16px/1.6 var(--body); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 56px 20px 72px; display: grid; gap: 40px; }
+header { display: grid; gap: 12px; }
+h1 { font: 600 2.6rem/1.1 var(--display); margin: 0; text-wrap: balance; }
+.intro { display: flex; align-items: center; gap: 24px; }
+.intro-text { display: grid; gap: 10px; min-width: 0; }
+.headshot { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; flex: none; border: 1px solid var(--line); }
+.lede { font-size: 1.125rem; margin: 0; max-width: 62ch; }
+.meta { color: var(--muted); font-size: .95rem; margin: 0; }
+.roles { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 4px 0 0; list-style: none; }
+.roles li { border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: .85rem; color: var(--muted); background: var(--card); }
+h2 { font: 600 .8rem/1 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+.list { display: grid; gap: 16px; }
+article { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; display: grid; grid-template-columns: 44px 1fr; gap: 4px 16px; }
+.num { font: 600 1.4rem/1.2 var(--display); color: var(--accent); font-variant-numeric: tabular-nums; }
+.body { display: grid; gap: 8px; min-width: 0; }
+h3 { font: 600 1.35rem/1.25 var(--display); margin: 0; text-wrap: balance; }
+.tag { color: var(--muted); font-size: .9rem; margin: 0; }
+.body p { margin: 0; max-width: 62ch; }
+.links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 4px; }
+a { color: var(--accent); font-weight: 500; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.links a::after { content: " \2197"; font-size: .85em; }
+figure { margin: 8px 0 0; display: grid; gap: 6px; }
+figure img { max-width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--line); display: block; }
+figure.agenda img { max-width: 360px; width: 100%; }
+figcaption { color: var(--muted); font-size: .85rem; }
+footer { color: var(--muted); font-size: .85rem; border-top: 1px solid var(--line); padding-top: 16px; }
+@media (max-width: 480px) {
+  h1 { font-size: 2.1rem; }
+  article { grid-template-columns: 1fr; padding: 18px; }
+  .intro { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .headshot { width: 96px; height: 96px; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="intro">
+      <img class="headshot" src="headshot.jpg" alt="Portrait of Yusi Wang" width="360" height="360">
+      <div class="intro-text">
+        <h1>Yusi Wang</h1>
+        <p class="lede">Product finance for QuickBooks at Intuit today. Before that, I lent to Filecoin storage providers, sourced partners at Galxe, and built Duke's blockchain community.</p>
+      </div>
+    </div>
+    <p class="meta">Staff Financial Analyst, Product Finance, QuickBooks Workforce Solutions at Intuit · Duke Fuqua MBA '26 · San Francisco Bay Area</p>
+    <p class="meta"><a href="https://www.linkedin.com/in/yusiw/">LinkedIn: linkedin.com/in/yusiw</a></p>
+    <ul class="roles" aria-label="Experience">
+      <li>Intuit, QuickBooks Workforce Solutions</li>
+      <li>Palladium-X (Filecoin ecosystem fund)</li>
+      <li>Galxe, early employee</li>
+      <li>Lazard, EM equities</li>
+      <li>Duke Fuqua Blockchain Club, Co-President</li>
+    </ul>
+  </header>
+
+  <section>
+    <h2>Selected work, most relevant first</h2>
+    <div class="list">
+
+      <article>
+        <div class="num">01</div>
+        <div class="body">
+          <h3>Filecoin lending for storage providers</h3>
+          <p class="tag">Talk · Filecoin Storage Provider Quarterly Update, November 2022 · Palladium-X</p>
+          <p>How Palladium-X lent the FIL collateral that storage providers must pledge, in exchange for a share of block rewards. I ran the program end to end, evaluated 20+ operators and raised $12M in FIL.</p>
+          <div class="links"><a href="https://www.youtube.com/watch?v=0E2D10KePvg">Watch the talk</a></div>
+        </div>
+      </article>
+
+      <article>
+        <div class="num">02</div>
+        <div class="body">
+          <h3>Duke Blockchain Conference 2026: Blockchain in the Age of AI</h3>
+          <p class="tag">Co-Chair and panel moderator · April 3–4, 2026 · Fuqua School of Business</p>
+          <p>100+ registrants. Speakers included former CFTC Commissioner Brian Quintenz, Curve founder Michael Egorov, Mark Yusko of Morgan Creek, and leaders from Mysten Labs, Nethermind, PwC and Dune. I moderated the Finance On-Chain panel with Eric Vreeland, CMO of Tria, and Mustafa Al Naima, Head of Capital Markets at Mysten Labs.</p>
+          <div class="links">
+            <a href="https://web.archive.org/web/20260401032152/https://www.dukeblockchain.com/">Conference site (archived)</a>
+            <a href="https://lnkd.in/p/gcJjRPdx">Photos from the conference</a>
+          </div>
+          <figure class="agenda">
+            <img src="agenda.jpg" alt="Duke Blockchain Conference 2026 agenda, listing Yusi Wang and Ata Kakayev as conference co-chairs" width="612" height="791">
+            <figcaption>Conference agenda</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article>
+        <div class="num">03</div>
+        <div class="body">
+          <h3>Transforming Gift Card Systems Through Tokenization</h3>
+          <p class="tag">Industry RWA report · with Injective Labs · December 2025</p>
+          <p>Sizes the market for tokenized gift cards, sets out a framework for judging when issuers are ready to adopt tokenization, and walks through a closed-loop implementation on Injective. Advised by Injective's Head of Research.</p>
+          <div class="links"><a href="https://drive.google.com/file/d/1KH4H-i7Uh8JK3PhmgB7105wCy_q0Ar1M/view?usp=sharing">Read the report (PDF)</a></div>
+        </div>
+      </article>
+
+      <article>
+        <div class="num">04</div>
+        <div class="body">
+          <h3>Duke Fuqua Blockchain Club, 2025–26</h3>
+          <p class="tag">Co-President</p>
+          <p>Brought the Ethereum Foundation, Oasis Network and Octane Security to campus, ran career events with Solana, OKX and One Piece Labs, and co-hosted market updates with Prof. Campbell Harvey. Worked with blockchain clubs at Harvard, Penn, UIUC and Vanderbilt.</p>
+          <div class="links"><a href="https://docs.google.com/presentation/d/1j1tI_1elrzn-yey7c-1SvzV6jm8rQZf4IWqRZQru8Fc/edit?usp=sharing">Club year in review (slides)</a></div>
+        </div>
+      </article>
+
+      <article>
+        <div class="num">05</div>
+        <div class="body">
+          <h3>ETHDenver 2025 takeaways: institutional crypto</h3>
+          <p class="tag">Duke Blockchain Club digest · May 2025</p>
+          <p>What institutions said they need from crypto platforms: built-in risk management, institutional-grade custody and KYC, better staking APIs, and access to real-world assets.</p>
+          <div class="links"><a href="https://dukeblockchainclub.substack.com/p/eth-denver-2025-takeaways-institutional">Read the post</a></div>
+          <figure>
+            <img src="ethdenver.jpg" alt="Duke University students and alumni holding a Duke flag at ETHDenver 2025" width="1100" height="879">
+            <figcaption>Duke students and alumni at ETHDenver 2025</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article>
+        <div class="num">06</div>
+        <div class="body">
+          <h3>Filecoin and decentralized storage</h3>
+          <p class="tag">Research · 2025</p>
+          <p>The case for blockchain-based storage as AI drives demand for data center capacity, with the key risks for Filecoin.</p>
+          <div class="links"><a href="https://drive.google.com/file/d/1WPfqW-4320VxDT9QIjq2wpLn89zHatAe/view?usp=sharing">Read the deck (PDF)</a></div>
+        </div>
+      </article>
+
+      <article>
+        <div class="num">07</div>
+        <div class="body">
+          <h3>Ion Protocol: DeFi restaking investment thesis</h3>
+          <p class="tag">Investment thesis · July 2023</p>
+          <p>Restaking as a new DeFi sub-sector, the competitive landscape in liquid staking DeFi, and Ion Protocol's risk-first approach.</p>
+          <div class="links"><a href="https://drive.google.com/file/d/1cOjPQe8XyuPVoykoh3TLnJpuEQkKkpiA/view?usp=sharing">Read the thesis (PDF)</a></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <footer>Yusi Wang · <a href="https://www.linkedin.com/in/yusiw/">LinkedIn</a> · Updated November 2026</footer>
+</main>
+</body>
+</html>
